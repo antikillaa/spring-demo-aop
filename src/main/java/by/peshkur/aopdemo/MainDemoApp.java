@@ -19,10 +19,11 @@ public class MainDemoApp {
 
 
         // call the business method
-        accountDAO.addAccount();
+        Account account = new Account();
+        accountDAO.addAccount(account);
 
         //call membership method
-        membershipDAO.addAccount();
+        membershipDAO.addSillyMember();
 
         // close the context
         context.close();
