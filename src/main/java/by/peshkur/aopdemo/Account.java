@@ -4,6 +4,16 @@ public class Account {
     private String name;
     private String level;
 
+    public boolean isVipFlag() {
+        return vipFlag;
+    }
+
+    public void setVipFlag(boolean vipFlag) {
+        this.vipFlag = vipFlag;
+    }
+
+    private boolean vipFlag;
+
     public String getName() {
         return name;
     }
